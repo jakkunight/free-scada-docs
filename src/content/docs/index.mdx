@@ -1,0 +1,33 @@
+---
+title: Welcome to Free SCADA
+description: Get started building your own SCADA system.
+template: splash
+hero:
+  tagline: For free SCADA development without headaches!
+  image:
+    file: ../../assets/free-collab.png
+  actions:
+    - text: Getting Started!
+      link: /free-scada-docs/guides/dev/setup
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="Design your SCADA" icon="pencil">
+		You are the desiger of your system! Free SCADA is a generic system that you can adapt to fit your needs. We leave the implementation totally up to the final costumer.
+	</Card>
+	<Card title="Open-Source" icon="add-document">
+		Free SCADA is Open-Source and community-driven! If you want a feature, you just have to open an issue or, much better, do it yourself and share with the commuity!
+	</Card>
+	<Card title="Fully adaptable" icon="setting">
+		No matter the scale or specifications, Free SCADA is fully adaptable to meet your requirements.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in the docs. <a href="/free-scada-docs/user/install" ><button>Go to the Docs</button></a>
+	</Card>
+</CardGrid>
