@@ -45,11 +45,23 @@ handle them for the administrative team or the technical team.
 The UI is always a headache. Always users complains about ugly styling, 
 too much options and buttons, or too few config settings, etc. This 
 is why we will take an entirely different aproach: The system UI 
-will be drawn itself following a web-like design.
+will draw itself with a web-like design and according with the stored data in your 
+system database, so everything will reflect your models.
+
 
 ### Relaiability: Easy to integrate with any kind of reliability strategy.
 
 
 ### Freedom: What the freedom really means.
+Closed SCADA systems are the standard for most industries and when the problems 
+comes... the support not always comes. Also, the risk of abandonware exists, 
+so the problem just grows and you can't really do anything to stop it.
 
+This is where Open-Source comes to rescue and makes posible an extended support, 
+even by the community, or the company itself.
+
+Also, other benefits can be deduced from this freedom. For example, if you 
+like to extend a device configuration for an IED, just do it. We do not 
+have any preference for a particular manufacturer. We are not going to 
+block your system for connecing different devices of different brands.
 

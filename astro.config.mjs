@@ -13,9 +13,13 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					autogenerate: { directory: 'guides' },
+					label: 'User Guides',
+					autogenerate: { directory: 'user-guides' },
 				},
+        {
+          label: 'Developer Guides',
+          autogenerate: { directory: 'dev-guides' }
+        },
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
