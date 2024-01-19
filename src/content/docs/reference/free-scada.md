@@ -8,7 +8,8 @@ author: jakkunight
 The traditional SCADA, propossed by the IEC in different ocations, 
 lacks something important: the scalability. This model, as it is, is not 
 scalable, because the system is too much coupled to the hardware. To avoid 
-those problems, we are going to use the SOLID principles.
+those problems, we are going to use the SOLID principles, by using nodes, 
+which are a more abstract representation of what we want to describe.
 
 ## The Free SCADA architecture: Nodes.
 Let's define what is a node for the Free SCADA perspective. Each node has 
@@ -27,5 +28,8 @@ receptors:
 The terminal is only a client for the backend server. It just renders a 
 user-friendly interface based on the backend server API.
 
-The database is the place where the data acquired by the backend, and the 
-command statuses and the 
+The database is the place where the data acquired by the backend, and the executed commands
+ results are stored. The database also reflects the SCADA model that solves the problem itself.
+
+Let's dive into each of the components of a node.
+
